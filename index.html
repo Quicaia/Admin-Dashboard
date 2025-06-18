@@ -13,7 +13,7 @@
             <div class="top">
                 <div class="logo">
                     <img src="img/logo.png" alt="logo">
-                    <h2>MQ <span class="logo__text">ADIMIN</span></h2>
+                    <h2>MQ<span class="logo__text">ADIMIN</span></h2>
                 </div>
                 <div class="fechar" id="btn__fechar">
                     <span class="material-symbols-outlined">close</span>
@@ -21,11 +21,11 @@
             </div>
             <div class="sidebar">
 
-                <a href="#">
+                <a href="#"  class="active">
                     <span class="material-symbols-outlined">dashboard</span>
                     <h3>Dashboard</h3>
                 </a>
-                <a href="#"  class="active">
+                <a href="#" >
                     <span class="material-symbols-outlined">group</span>
                     <h3>Clientes</h3>
                 </a>
@@ -66,7 +66,75 @@
             </div>
 
         </aside>
-    </div>
+        <!-------------------------------------------------FIM ASIDE--------------------------------->
+        
+        <main>
+            <h1>Dashboard</h1>
+            <div class="data">
+                <input type="date">
+            </div>
+            <div class="percepcoe">
+                <div class="vendas">
+                    <span class="material-symbols-outlined">analytics </span>
+                    <div class="meio">
+                        <div class="left">
+                            <h3>Total de Vendas</h3>
+                            <h1>250.450 Kz</h1>
+                        </div>
+                        <div class="progresso">
+                            <svg>
+                               <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="numero">
+                                <p>60%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text__muted">Últimas 24 horas</small>
+                </div>
+                <!-----------------------FIM VENDAS----------------------->
+                <div class="despesas">
+                    <span class="material-symbols-outlined"> bar_chart </span>
+                    <div class="meio">
+                        <div class="left">
+                            <h3>Total de Despesas</h3>
+                            <h1>14.312 Kz</h1>
+                        </div>
+                        <div class="progresso">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="numero">
+                                <p>23%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text__muted">Últimas 24 horas</small>
+                </div>
+                <!-----------------------FIM DEPESAS----------------------->
+                <div class="renda">
+                    <span class="material-symbols-outlined"> stacked_line_chart </span>
+                    <div class="meio">
+                        <div class="left">
+                            <h3>Total de Renda</h3>
+                            <h1>94.682 Kz</h1>
+                        </div>
+                        <div class="progresso">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="numero">
+                                <p>44%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text__muted">Últimas 24 horas</small>
+                </div>
+                <!-----------------------FIM RENDA----------------------->
+            </div>
+        </main>
 
+    </div>
+   
 </body>
 </html>
