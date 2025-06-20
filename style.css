@@ -115,7 +115,7 @@ b {
     color: var(--cor-dark);
 }
 
-.primary {
+.primaria {
     color: var(--cor-primaria);
 }
 .logo__text {
@@ -124,7 +124,7 @@ b {
 .success {
     color: var(--cor-succerss);
 }
-.warning {
+.aviso {
     color: var(--cor-warning);
 }
 
@@ -337,4 +337,26 @@ main .percepcoe .progresso .numero {
 main .percepcoe small {
     margin-top:  1.6rem;
     display: block;
+}
+
+/*================================Pedidos Rencentes =================================**/
+
+main .pedidos__recentes {
+    margin-top: 2rem;
+}
+main .pedidos__recentes h2 {
+    margin-bottom: 0.8rem;
+}
+
+main .pedidos__recentes table {
+    background: var(--cor-white);
+    width: 100%;
+    border-radius: var(--card-border-radius);
+    padding: var(--padding-1);
+    text-align: center;
+    box-shadow: var(--box-shadow);
+    transition: all 300ms ease;
+}
+main .pedidos__recentes table:hover{
+    box-shadow: none;
 }
