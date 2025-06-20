@@ -359,4 +359,21 @@ main .pedidos__recentes table {
 }
 main .pedidos__recentes table:hover{
     box-shadow: none;
+} 
+main table tbody td {
+    height: 2.8rem;
+    border-bottom: 1px solid var(--cor-light); 
+    color: var(--cor-primaria-variante);
 }
+
+main table tbody tr:last-child td {
+    border: none;
+}
+main .pedidos__recentes a {
+    text-align: center;
+    display: block;
+    margin: 1rem auto;
+    color: var(--cor-primaria);
+}
+
+
