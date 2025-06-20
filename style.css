@@ -274,11 +274,20 @@ main .percepcoe > div .meio{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 2rem;
 }
 
 main .percepcoe h3 {
     margin:  1rem 0 0.6rem;
     font-size: 1rem;
+}
+main .percepcoe .left h1{
+    display: flex;
+    align-items: center;
+    gap: .2rem;
+}
+main .percepcoe .left h1 p {
+    font-size: .9rem;
 }
 main .percepcoe .progresso{
     position: relative;
@@ -303,4 +312,29 @@ main .percepcoe svg circle {
 main .percepcoe .vendas svg circle {
     stroke-dashoffset: -30;
     stroke-dasharray: 188;
+}
+main .percepcoe .despesas svg circle {
+    stroke-dashoffset: 20;
+    stroke-dasharray: 80 ;
+}
+
+main .percepcoe .renda svg circle {
+    stroke-dashoffset: 35;
+    stroke-dasharray: 110;
+}
+
+main .percepcoe .progresso .numero {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .percepcoe small {
+    margin-top:  1.6rem;
+    display: block;
 }
