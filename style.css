@@ -72,8 +72,8 @@ img {
 }
 
 h1 {
-    font-weight: 700;
     font-size: 1.5rem;
+    font-weight: 700;
 }
 
 h2 {
@@ -244,7 +244,7 @@ main  .data input {
 main .percepcoe {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1.6rem;
+    gap: 1.5rem;
 }
 main .percepcoe > div {
     background: var(--cor-white);
@@ -277,12 +277,12 @@ main .percepcoe > div .meio{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 main .percepcoe h3 {
-    margin:  1rem 0 0.6rem;
-    font-size: 1rem;
+    margin:  .5rem 0 0.6rem;
+    font-size: .9rem;
 }
 main .percepcoe .left h1{
     display: flex;
@@ -290,7 +290,7 @@ main .percepcoe .left h1{
     gap: .2rem;
 }
 main .percepcoe .left h1 p {
-    font-size: .9rem;
+    font-size: 1rem;
 }
 main .percepcoe .progresso{
     position: relative;
@@ -491,4 +491,29 @@ main .pedidos__recentes a {
     margin: 0;
     width: 100%;
     gap: 1rem;
+}
+.right .análise__de__vendas .item .icon {
+    padding: 0.4rem;
+    color: var(--cor-white);
+    border-radius: 50%;
+    background: var(--cor-primaria);
+    display: flex;
+}
+.right .análise__de__vendas .item.offline .icon{
+    background: var(--cor-danger);
+}
+.right .análise__de__vendas .item.clientes .icon {
+    background: var(--cor-succerss);
+}
+.right .análise__de__vendas .Add-produto {
+    background-color: transparent;
+    border: 2px dashed var(--cor-primaria);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right .análise__de__vendas .Add-produto div{
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
 }
