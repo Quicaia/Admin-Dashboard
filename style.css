@@ -380,6 +380,7 @@ main .pedidos__recentes a {
 .right .top {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     gap: 2rem;
     padding-right: 6.5rem;
 }
@@ -398,3 +399,52 @@ main .pedidos__recentes a {
     border-radius: var(--border-radius-1);
 }
 
+.right .alternador__de__tema span {
+    font-size: 1.2rem;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right .alternador__de__tema span.active {
+    background: var(--cor-primaria);
+    color: white;
+    border-radius: var(--border-radius-1);
+}
+.right .top .perfil {
+    display: flex;
+    gap: 2rem;
+    text-align: right;
+}
+
+/*============================atulizaçao recentes =======*/
+.right .atualizacao__rentente {
+    margin-top: 1.5rem;
+    padding-right: 6.5rem;
+}
+.right .atualizacao__rentente h2 {
+    margin-bottom: 0.8rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.right .atualizacao__rentente 
+.lista__updates {
+    background: var(--cor-white);
+    padding: var(--padding-1);
+    border-radius: var(--card-border-radius);
+    box-shadow: var(--box-shadow);
+    transition: all 300ms ease;
+}
+.right .atualizacao__rentente 
+.lista__updates:hover {
+    box-shadow: none;
+}
+.right .atualizacao__rentente 
+.lista__updates .update{
+    display: grid;
+    grid-template-columns: 2.6rem auto ;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
