@@ -55,10 +55,11 @@ body{
 
 .container {
     display: grid;
-    max-width: 96%;
-    margin: 0 auto;
+    width: 96%;
+    margin: 0  auto;
     gap: 1.8rem;
-    grid-template-columns: 14rem auto 23rem;
+    grid-template-columns: 14rem auto 20rem;
+    padding: 0 auto;
 }
 
 a {
@@ -71,8 +72,8 @@ img {
 }
 
 h1 {
-    font-weight: 800;
-    font-size: 1.8rem;
+    font-weight: 700;
+    font-size: 1.5rem;
 }
 
 h2 {
@@ -122,6 +123,9 @@ b {
     color: var(--cor-danger);
 }
 .success {
+    color: var(--cor-succerss);
+}
+.sucesso{
     color: var(--cor-succerss);
 }
 .aviso {
@@ -376,13 +380,13 @@ main .pedidos__recentes a {
 }
 .right {
     margin-top: 1.4rem;
+    margin-right: 2rem;
 }
 .right .top {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     gap: 2rem;
-    padding-right: 6.5rem;
 }
 
 .right .top button {
@@ -414,14 +418,19 @@ main .pedidos__recentes a {
 }
 .right .top .perfil {
     display: flex;
+    align-items: center;
     gap: 2rem;
     text-align: right;
+}
+.right .top .perfil .foto__perfil {
+    width: 40px;
+    height: 40px;
+
 }
 
 /*============================atulizaçao recentes =======*/
 .right .atualizacao__rentente {
     margin-top: 1.5rem;
-    padding-right: 6.5rem;
 }
 .right .atualizacao__rentente h2 {
     margin-bottom: 0.8rem;
@@ -447,4 +456,39 @@ main .pedidos__recentes a {
     grid-template-columns: 2.6rem auto ;
     gap: 1rem;
     margin-bottom: 1rem;
+}
+
+/*=====================atualizacao__rentente===========*/
+
+
+.right .análise__de__vendas {
+    margin-top : 2rem;
+}
+.right .análise__de__vendas h2 {
+    margin-bottom: 0.8rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.right .análise__de__vendas .item {
+    background: var(--cor-white);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.7rem;
+    padding: 1.4rem var(--padding-1);
+    border-radius: var(--border-radius-3);
+    box-shadow: var(--box-shadow);
+    transition: all 300ms ease;
+}
+.right .análise__de__vendas .item:hover{
+    box-shadow: none;
+}
+
+.right .análise__de__vendas .item .right {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    margin: 0;
+    width: 100%;
+    gap: 1rem;
 }
