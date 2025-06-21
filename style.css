@@ -55,7 +55,7 @@ body{
 
 .container {
     display: grid;
-    width: 96%;
+    max-width: 96%;
     margin: 0 auto;
     gap: 1.8rem;
     grid-template-columns: 14rem auto 23rem;
@@ -133,7 +133,6 @@ aside {
 }
 
 aside .top {
-    background: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -375,5 +374,27 @@ main .pedidos__recentes a {
     margin: 1rem auto;
     color: var(--cor-primaria);
 }
+.right {
+    margin-top: 1.4rem;
+}
+.right .top {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+    padding-right: 6.5rem;
+}
 
+.right .top button {
+    display: none;
+}
+.right .alternador__de__tema {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--cor-light);
+    height: 1.6rem;
+    width: 4.2rem;
+    cursor: pointer;
+    border-radius: var(--border-radius-1);
+}
 
